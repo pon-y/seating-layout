@@ -1,6 +1,6 @@
-##Welcome to the event floor plan app! This app is still in progress. 
+## Welcome to the event floor plan app! This app is still in progress. 
 
-####To get started please follow the steps: 
+#### To get started please follow the steps: 
 
 - In order to use postgres, please make a copy of `dbconfig.example.js` with the appropriate fields filled out and rename the file to `dbconfig.js` in the root folder 
 
