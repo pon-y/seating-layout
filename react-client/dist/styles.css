@@ -1,0 +1,86 @@
+body {
+  font-family: 'Catamaran', sans-serif;
+  /* background-color: #FCF7F8; */
+  color: #575366;
+  /* background: #FCFCFC; */
+  background-image: url("https://images.pexels.com/photos/246520/pexels-photo-246520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size:     cover;                 
+  background-repeat:   no-repeat;
+  background-position: center center;  
+height: auto;
+padding: 3%;
+  
+}
+svg {
+  background-color: #ccc;
+  opacity: 1;
+  border-radius: 25px;
+  /* border: 1px outset #ABA9C3; */
+  box-shadow: 5px 10px #797979;
+}
+circle {
+  fill: none;
+  stroke: black;
+  stroke-width: 1;
+}
+
+rect {
+  fill: none;
+  stroke: #575366;
+  stroke-width: 1;
+}
+
+.parentContainer {
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.diagramContainer {
+  background-color: #eee;
+  border-radius: 25px;
+  padding: 1%;
+
+  flex-grow: 7;
+}
+.errorMessage {
+  background: #ccc;
+  border-radius: 25px;
+  border: 1px outset #ABA9C3;
+  box-shadow: 5px 10px #888888;
+  height: 100%;
+  flex-grow: 7;
+}
+.formInput {
+ background-color: white;
+ opacity: .90;
+  border-radius: 25px;
+  /* border: 1px dotted red; */
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-grow: 2;
+  font-family: 'Catamaran', sans-serif;
+  padding: 1%;
+  width: 7%;
+  margin-right: 3%;
+}
+
+form {
+  margin-top:5%;
+  margin-bottom: 20px;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+.saveButton {
+  width: 80%;
+  padding: 10%;
+}
